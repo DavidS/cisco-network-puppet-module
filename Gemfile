@@ -86,3 +86,5 @@ extra_gemfiles.each do |gemfile|
   end
 end
 # vim: syntax=ruby
+
+gem 'beaker-vmpooler', git: 'https://github.com/DavidS/beaker-vmpooler.git', ref: 'randomized-backoff'

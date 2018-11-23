@@ -1,2 +1,0 @@
-processing tests/beaker_tests/cisco_tacacs_server/tacacsserver_provider_nondefaults.rb
-beaker .... -t tests/beaker_tests/cisco_tacacs_server/tacacsserver_provider_nondefaults.rb

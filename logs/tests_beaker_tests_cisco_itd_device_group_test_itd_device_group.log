@@ -8,19 +8,7 @@ processing tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 1 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 2 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
 [00;00m[00;37mRetrying provision for vmpooler host after waiting 3 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 5 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
@@ -28,42 +16,218 @@ processing tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 13 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 12 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 21 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 34 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 55 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 89 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 144 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 233 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 377 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;34mUsing available host 'uphadhstx0kl7ev.delivery.puppetlabs.net' (cisconx-64-1)
-[00;00m[00;34mSpent 990.47 seconds grabbing VMs
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 18 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 18 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;34mUsing available host 'fee4gju45629nqy.delivery.puppetlabs.net' (cisconx-64-1)
+[00;00m[00;34mSpent 895.65 seconds grabbing VMs
 [00;00m[00;34mTagging vmpooler VMs
 [00;00m[00;34mSpent 0.30 seconds tagging VMs
 [00;00m[00;37mLooking for disks to add...
-[00;00m[00;37mNo disks to add for uphadhstx0kl7ev
+[00;00m[00;37mNo disks to add for fee4gju45629nqy
 [00;00m[00;37mCisco does not allow SSH control through the BASH shell
 [00;00m[00;32mBeaker!
 [00;00m[00;32m      wWWWw
@@ -142,7 +306,7 @@ processing tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
     "puppetserver_port": 8140,
     "nodeclassifier_port": 4433,
     "cache_files_locally": false,
-    "aws_keyname_modifier": "0771750137",
+    "aws_keyname_modifier": "6806821823",
     "run_in_parallel": [],
     "use_fog_credentials": true,
     "ssh": {
@@ -200,28 +364,28 @@ processing tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
     "install": [],
     "pre_cleanup": [],
     "modules": [],
-    "logger": "#<Beaker::Logger:0x000055d1cda9bbc8>",
-    "timestamp": "2018-11-23 14:45:35 +0000",
+    "logger": "#<Beaker::Logger:0x000055869aa6b3c0>",
+    "timestamp": "2018-11-23 16:54:06 +0000",
     "beaker_version": "4.1.0",
     "log_prefix": "hosts",
-    "xml_dated_dir": "junit/hosts/2018-11-23_14_45_35",
-    "log_dated_dir": "log/hosts/2018-11-23_14_45_35",
-    "logger_sut": "#<Beaker::Logger:0x000055d1cda9b268>"
+    "xml_dated_dir": "junit/hosts/2018-11-23_16_54_06",
+    "log_dated_dir": "log/hosts/2018-11-23_16_54_06",
+    "logger_sut": "#<Beaker::Logger:0x000055869aa6aa60>"
 }
 [00;00m[00;32mBegin tests/beaker_tests/presuite/presuite_deploy.rb
 [00;00m[00;34m
 Prep Masters & Install Puppet
 [00;00m[00;32mBegin teardown
 [00;00m[00;32mEnd teardown
-[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 0.39 seconds
-[00;00m      Test Suite: pre_suite @ 2018-11-23 15:02:07 +0000
+[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 0.07 seconds
+[00;00m      Test Suite: pre_suite @ 2018-11-23 17:09:03 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'pre_suite' -
-       Total Suite Time: 0.39 seconds
-      Average Test Time: 0.39 seconds
+       Total Suite Time: 0.07 seconds
+      Average Test Time: 0.07 seconds
               Attempted: 1
                  Passed: 1
                  Failed: 0
@@ -237,29 +401,7 @@ Errored Tests Cases:
 Skipped Tests Cases:
 Pending Tests Cases:
 
-[00;31mfailure in XML output: 
-Missing end tag for '' (got "testsuite")
-Line: 906
-Position: 58709
-Last 80 unconsumed characters:
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:341:in `pull_event'
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:185:in `pull'
-/usr/lib/ruby/2.5.0/rexml/parsers/treeparser.rb:23:in `parse'
-/usr/lib/ruby/2.5.0/rexml/document.rb:288:in `build'
-/usr/lib/ruby/2.5.0/rexml/document.rb:45:in `initialize'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `new'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `get_doc_for_filename'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:59:in `get_xml_contents'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:22:in `write_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite_result.rb:170:in `write_junit_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:99:in `run'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:112:in `run_and_raise_on_failure'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:192:in `run_suite'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:114:in `execute!'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9:in `<top (required)>'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `load'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `<main>'
-[00;00m[00;32mBegin tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
+[00;32mBegin tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
 [00;00m[00;32m
 Found Platform string: 'NX-OSv Chassis', Alias to: 'n9k'
 [00;00m[00;34m
@@ -278,84 +420,290 @@ TestCase :: cisco_itd_device_group
     [:title_pattern] 'icmpGroup'
 [00;00m[00;32m    
     title_string: 'icmpGroup'
-[00;00m[1;31mError: execution expired
-/usr/lib/ruby/2.5.0/net/http.rb:937:in `initialize'
-/usr/lib/ruby/2.5.0/net/http.rb:937:in `open'
-/usr/lib/ruby/2.5.0/net/http.rb:937:in `block in connect'
-/usr/lib/ruby/2.5.0/timeout.rb:103:in `timeout'
-/usr/lib/ruby/2.5.0/net/http.rb:935:in `connect'
-/usr/lib/ruby/2.5.0/net/http.rb:920:in `do_start'
-/usr/lib/ruby/2.5.0/net/http.rb:909:in `start'
-/usr/lib/ruby/2.5.0/net/http.rb:1455:in `request'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/client/nxapi/client.rb:216:in `req'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/client/nxapi/client.rb:159:in `get'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/node.rb:288:in `get'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/node.rb:345:in `product_id'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/node.rb:243:in `initialize'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/node.rb:237:in `new'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/node.rb:237:in `instance'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/node_util.rb:24:in `node'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/node_util.rb:40:in `config_get'
-/home/david/gems/ruby/2.5.0/gems/cisco_node_utils-1.10.0/lib/cisco_node_utils/platform.rb:31:in `system_image'
-/home/david/git/cisco-network-puppet-module/lib/puppet/util/network_device/cisco_nexus/device.rb:31:in `parse_device_facts'
-/home/david/git/cisco-network-puppet-module/lib/puppet/util/network_device/cisco_nexus/device.rb:18:in `facts'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/indirector/facts/network_device.rb:13:in `find'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/indirector/indirection.rb:194:in `find'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application/device.rb:279:in `block (2 levels) in main'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application/device.rb:245:in `each'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application/device.rb:245:in `collect'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application/device.rb:245:in `block in main'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/context.rb:65:in `override'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet.rb:252:in `override'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application/device.rb:230:in `main'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application.rb:390:in `run_command'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application.rb:382:in `block in run'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/util.rb:671:in `exit_on_fail'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/application.rb:382:in `run'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/util/command_line.rb:136:in `run'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/lib/puppet/util/command_line.rb:73:in `execute'
-/home/david/gems/ruby/2.5.0/gems/puppet-6.0.4/bin/puppet:5:in `<top (required)>'
-/home/david/gems/ruby/2.5.0/bin/puppet:23:in `load'
-/home/david/gems/ruby/2.5.0/bin/puppet:23:in `<main>'[0m
-[00;31mNoMethodError: undefined method `[]' for nil:NilClass
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:1423
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:881
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:809
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:918
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb:145
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:124
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:123
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb:139
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:133
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:133
-[00;00m[00;31m/usr/lib/ruby/2.5.0/benchmark.rb:308
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:130
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:66
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:63
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:63
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:112
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:192
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:118
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m[00;32m  
+  --------
+  1.1 Defaults [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (1.1 Defaults) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: 1.1 Defaults [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [0, 2])
+[00;00m[00;32m  1.1 Defaults [ensure => present] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (1.1 Defaults) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: 1.1 Defaults :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_itd_device_group 'icmpGroup'
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_type +=> +'?false'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:ensure +=> +'?'?) :: PASS
+[00;00m[00;32m    1.1 Defaults :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (1.1 Defaults) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: 1.1 Defaults :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    1.1 Defaults :: IDEMPOTENCE  :: PASS
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_itd_device_group'
+    [:title_pattern] 'icmpGroup'
+[00;00m[00;32m    
+    title_string: 'icmpGroup'
+[00;00m[00;34m  
+  * 
+  --------
+   * TestStep :: absent clean
+[00;00m[00;32m      * absent clean Removing cisco_itd_device_group 'icmpGroup'
+[00;00m[00;32m  
+  --------
+  1.2 Defaults for type icmp [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (1.2 Defaults for type icmp) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: 1.2 Defaults for type icmp [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [0, 2])
+[00;00m[00;32m  1.2 Defaults for type icmp [ensure => present] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (1.2 Defaults for type icmp) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: 1.2 Defaults for type icmp :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_itd_device_group 'icmpGroup'
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_frequency +=> +'?10'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_down +=> +'?3'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_up +=> +'?3'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_timeout +=> +'?5'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:ensure +=> +'?'?) :: PASS
+[00;00m[00;32m    1.2 Defaults for type icmp :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (1.2 Defaults for type icmp) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: 1.2 Defaults for type icmp :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    1.2 Defaults for type icmp :: IDEMPOTENCE  :: PASS
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_itd_device_group'
+    [:title_pattern] 'icmpGroup'
+[00;00m[00;32m    
+    title_string: 'icmpGroup'
+[00;00m[00;32m  
+  --------
+  1.1 Defaults [ensure => absent]
+[00;00m[00;37m  format_stepinfo :: (1.1 Defaults) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: 1.1 Defaults [ensure => absent] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [0, 2])
+[00;00m[00;32m  1.1 Defaults [ensure => absent] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (1.1 Defaults) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: 1.1 Defaults :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_itd_device_group 'icmpGroup'
+[00;00m[00;37m    TestStep :: Match (?-mix:ensure +=> +'?absent'?) :: PASS
+[00;00m[00;32m    1.1 Defaults :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (1.1 Defaults) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: 1.1 Defaults :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    1.1 Defaults :: IDEMPOTENCE  :: PASS
+[00;00m[00;32m  
+  ------------------------------------------------------------
+  Section 2. Non Default Property Testing
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_itd_device_group'
+    [:title_pattern] 'icmpGroup'
+[00;00m[00;32m    
+    title_string: 'icmpGroup'
+[00;00m[00;34m  
+  * 
+  --------
+   * TestStep :: absent clean
+[00;00m[00;32m  
+  --------
+  2.1 Non Defaults for type icmp [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (2.1 Non Defaults for type icmp) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: 2.1 Non Defaults for type icmp [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
+[00;00m[00;32m  2.1 Non Defaults for type icmp [ensure => present] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.1 Non Defaults for type icmp) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: 2.1 Non Defaults for type icmp :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_itd_device_group 'icmpGroup'
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_frequency +=> +'?1800'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_down +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_up +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_timeout +=> +'?1200'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_type +=> +'?icmp'?) :: PASS
+[00;00m[00;32m    2.1 Non Defaults for type icmp :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.1 Non Defaults for type icmp) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: 2.1 Non Defaults for type icmp :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    2.1 Non Defaults for type icmp :: IDEMPOTENCE  :: PASS
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_itd_device_group'
+    [:title_pattern] 'dnsGroup'
+[00;00m[00;32m    
+    title_string: 'dnsGroup'
+[00;00m[00;34m  
+  * 
+  --------
+   * TestStep :: absent clean
+[00;00m[00;32m      * absent clean Removing cisco_itd_device_group 'icmpGroup'
+[00;00m[00;32m  
+  --------
+  2.2 Non Defaults for type dns [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (2.2 Non Defaults for type dns) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: 2.2 Non Defaults for type dns [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
+[00;00m[00;32m  2.2 Non Defaults for type dns [ensure => present] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.2 Non Defaults for type dns) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: 2.2 Non Defaults for type dns :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_itd_device_group 'dnsGroup'
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_frequency +=> +'?1800'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_dns_host +=> +'?8.8.8.8'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_down +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_up +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_timeout +=> +'?1200'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_type +=> +'?dns'?) :: PASS
+[00;00m[00;32m    2.2 Non Defaults for type dns :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.2 Non Defaults for type dns) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: 2.2 Non Defaults for type dns :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    2.2 Non Defaults for type dns :: IDEMPOTENCE  :: PASS
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_itd_device_group'
+    [:title_pattern] 'tcpGroup'
+[00;00m[00;32m    
+    title_string: 'tcpGroup'
+[00;00m[00;34m  
+  * 
+  --------
+   * TestStep :: absent clean
+[00;00m[00;32m      * absent clean Removing cisco_itd_device_group 'dnsGroup'
+[00;00m[00;32m  
+  --------
+  2.3 Non Defaults for type tcp [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (2.3 Non Defaults for type tcp) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: 2.3 Non Defaults for type tcp [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
+[00;00m[00;32m  2.3 Non Defaults for type tcp [ensure => present] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.3 Non Defaults for type tcp) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: 2.3 Non Defaults for type tcp :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_itd_device_group 'tcpGroup'
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_frequency +=> +'?1800'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_control +=> +'?true'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_port +=> +'?6666'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_down +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_up +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_timeout +=> +'?1200'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_type +=> +'?tcp'?) :: PASS
+[00;00m[00;32m    2.3 Non Defaults for type tcp :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.3 Non Defaults for type tcp) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: 2.3 Non Defaults for type tcp :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    2.3 Non Defaults for type tcp :: IDEMPOTENCE  :: PASS
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_itd_device_group'
+    [:title_pattern] 'udpGroup'
+[00;00m[00;32m    
+    title_string: 'udpGroup'
+[00;00m[00;34m  
+  * 
+  --------
+   * TestStep :: absent clean
+[00;00m[00;32m      * absent clean Removing cisco_itd_device_group 'tcpGroup'
+[00;00m[00;32m  
+  --------
+  2.4 Non Defaults for type udp [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (2.4 Non Defaults for type udp) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: 2.4 Non Defaults for type udp [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
+[00;00m[00;32m  2.4 Non Defaults for type udp [ensure => present] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.4 Non Defaults for type udp) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: 2.4 Non Defaults for type udp :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_itd_device_group 'udpGroup'
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_frequency +=> +'?1800'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_control +=> +'?true'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_port +=> +'?6666'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_down +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_retry_up +=> +'?4'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_timeout +=> +'?1200'?) :: PASS
+[00;00m[00;37m    TestStep :: Match (?-mix:probe_type +=> +'?udp'?) :: PASS
+[00;00m[00;32m    2.4 Non Defaults for type udp :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (2.4 Non Defaults for type udp) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: 2.4 Non Defaults for type udp :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    2.4 Non Defaults for type udp :: IDEMPOTENCE  :: PASS
+[00;00m[00;32mTestCase :: cisco_itd_device_group :: End
 [00;00m[00;32mBegin teardown
 [00;00m[00;32mno feature itd
 [00;00m[00;32mEnd teardown
-[00;00m[01;31mWarning: tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb errored in 243.55 seconds
-[00;00m      Test Suite: tests @ 2018-11-23 15:02:07 +0000
+[00;00m[00;35mtests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb passed in 1082.43 seconds
+[00;00m      Test Suite: tests @ 2018-11-23 17:09:03 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'tests' -
-       Total Suite Time: 243.55 seconds
-      Average Test Time: 243.55 seconds
+       Total Suite Time: 1082.43 seconds
+      Average Test Time: 1082.43 seconds
               Attempted: 1
-                 Passed: 0
+                 Passed: 1
                  Failed: 0
-                Errored: 1
+                Errored: 0
                 Skipped: 0
                 Pending: 0
                   Total: 1
@@ -364,51 +712,24 @@ TestCase :: cisco_itd_device_group
         
 Failed Tests Cases:
 Errored Tests Cases:
-  Test Case tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb reported: #<NoMethodError: undefined method `[]' for nil:NilClass>
-    Test line: tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb:145:in `block (2 levels) in run_test'
 Skipped Tests Cases:
 Pending Tests Cases:
 
-[00;31mfailure in XML output: 
-Missing end tag for '' (got "testsuite")
-Line: 906
-Position: 58709
-Last 80 unconsumed characters:
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:341:in `pull_event'
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:185:in `pull'
-/usr/lib/ruby/2.5.0/rexml/parsers/treeparser.rb:23:in `parse'
-/usr/lib/ruby/2.5.0/rexml/document.rb:288:in `build'
-/usr/lib/ruby/2.5.0/rexml/document.rb:45:in `initialize'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `new'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `get_doc_for_filename'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:59:in `get_xml_contents'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:22:in `write_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite_result.rb:170:in `write_junit_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:99:in `run'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:112:in `run_and_raise_on_failure'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:192:in `run_suite'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:118:in `execute!'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9:in `<top (required)>'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `load'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `<main>'
-[00;00m[00;31mFailed: errored in TestSuite: report_and_raise_on_failure
-[00;00m[00;31m#<RuntimeError: Failed while running the tests suite>
-[00;00m[00;34mNo tests to run for suite 'post_suite'
+[00;34mNo tests to run for suite 'post_suite'
 [00;00m[00;34mNo tests to run for suite 'pre_cleanup'
-[00;00m[00;34mCleanup: cleaning up after failed run
-[00;00m[00;34mHanding 'uphadhstx0kl7ev.delivery.puppetlabs.net' back to vmpooler for VM destruction
+[00;00m[00;34mCleanup: cleaning up after successful run
+[00;00m[00;34mHanding 'fee4gju45629nqy.delivery.puppetlabs.net' back to vmpooler for VM destruction
 [00;00m[00;34mSpent 0.30 seconds cleaning up
-[00;00m[00;31m
+[00;00m[00;37m
 You can reproduce this run with:
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker --color --debug --hosts hosts.yml --pre-suite tests/beaker_tests/presuite/presuite_deploy.rb -t tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
-[00;00m[00;31m
+[00;00m[00;37m/home/david/gems/ruby/2.5.0/bin/beaker --color --debug --hosts hosts.yml --pre-suite tests/beaker_tests/presuite/presuite_deploy.rb -t tests/beaker_tests/cisco_itd_device_group/test_itd_device_group.rb
+[00;00m[00;37m
 Important ENV variables that may have affected your run:
-[00;00m[00;31m    GEM_HOME		/home/david/gems/ruby/2.5.0
-[00;00m[00;31m    GEM_PATH		
-[00;00m[00;31m    PATH		/home/david/gems/ruby/2.5.0/bin:/home/david/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/puppetlabs/bin:/home/david/go/bin:/usr/sbin:/sbin
-[00;00m[00;31m    home		/home/david
-[00;00m[00;31m    pe_dir		http://enterprise.delivery.puppetlabs.net/archives/releases/2018.1.0
-[00;00m[00;31m    puppet_agent_version		5.5.1
-[00;00m[00;31m    pe_ver		2018.1.0
-[00;00m[00;31mFailed running the test suite.
-[00;00m
+[00;00m[00;37m    GEM_HOME		/home/david/gems/ruby/2.5.0
+[00;00m[00;37m    GEM_PATH		
+[00;00m[00;37m    PATH		/home/david/gems/ruby/2.5.0/bin:/home/david/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/puppetlabs/bin:/home/david/go/bin:/usr/sbin:/sbin
+[00;00m[00;37m    home		/home/david
+[00;00m[00;37m    pe_dir		http://enterprise.delivery.puppetlabs.net/archives/releases/2018.1.0
+[00;00m[00;37m    puppet_agent_version		5.5.1
+[00;00m[00;37m    pe_ver		2018.1.0
+[00;00mBeaker completed successfully, thanks.

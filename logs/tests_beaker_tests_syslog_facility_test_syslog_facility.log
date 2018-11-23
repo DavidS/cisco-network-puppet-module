@@ -2,12 +2,12 @@ processing tests/beaker_tests/syslog_facility/test_syslog_facility.rb
 [00;37mHypervisor for cisconx-64-1 is vmpooler
 [00;00m[00;34mBeaker::Hypervisor, found some vmpooler boxes to create
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;34mUsing available host 'pmxq3bx78ic5yl5.delivery.puppetlabs.net' (cisconx-64-1)
-[00;00m[00;34mSpent 0.39 seconds grabbing VMs
+[00;00m[00;34mUsing available host 'yjmwmg5hodgctj3.delivery.puppetlabs.net' (cisconx-64-1)
+[00;00m[00;34mSpent 0.37 seconds grabbing VMs
 [00;00m[00;34mTagging vmpooler VMs
 [00;00m[00;34mSpent 0.30 seconds tagging VMs
 [00;00m[00;37mLooking for disks to add...
-[00;00m[00;37mNo disks to add for pmxq3bx78ic5yl5
+[00;00m[00;37mNo disks to add for yjmwmg5hodgctj3
 [00;00m[00;37mCisco does not allow SSH control through the BASH shell
 [00;00m[00;32mBeaker!
 [00;00m[00;32m      wWWWw
@@ -86,7 +86,7 @@ processing tests/beaker_tests/syslog_facility/test_syslog_facility.rb
     "puppetserver_port": 8140,
     "nodeclassifier_port": 4433,
     "cache_files_locally": false,
-    "aws_keyname_modifier": "3090313496",
+    "aws_keyname_modifier": "3384295678",
     "run_in_parallel": [],
     "use_fog_credentials": true,
     "ssh": {
@@ -144,28 +144,28 @@ processing tests/beaker_tests/syslog_facility/test_syslog_facility.rb
     "install": [],
     "pre_cleanup": [],
     "modules": [],
-    "logger": "#<Beaker::Logger:0x000055e8d1808ad0>",
-    "timestamp": "2018-11-23 14:45:30 +0000",
+    "logger": "#<Beaker::Logger:0x000055ef69e94ec8>",
+    "timestamp": "2018-11-23 16:54:04 +0000",
     "beaker_version": "4.1.0",
     "log_prefix": "hosts",
-    "xml_dated_dir": "junit/hosts/2018-11-23_14_45_30",
-    "log_dated_dir": "log/hosts/2018-11-23_14_45_30",
-    "logger_sut": "#<Beaker::Logger:0x000055e8d1808170>"
+    "xml_dated_dir": "junit/hosts/2018-11-23_16_54_04",
+    "log_dated_dir": "log/hosts/2018-11-23_16_54_04",
+    "logger_sut": "#<Beaker::Logger:0x000055ef69e94568>"
 }
 [00;00m[00;32mBegin tests/beaker_tests/presuite/presuite_deploy.rb
 [00;00m[00;34m
 Prep Masters & Install Puppet
 [00;00m[00;32mBegin teardown
 [00;00m[00;32mEnd teardown
-[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 1.49 seconds
-[00;00m      Test Suite: pre_suite @ 2018-11-23 14:45:32 +0000
+[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 1.34 seconds
+[00;00m      Test Suite: pre_suite @ 2018-11-23 16:54:05 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'pre_suite' -
-       Total Suite Time: 1.49 seconds
-      Average Test Time: 1.49 seconds
+       Total Suite Time: 1.34 seconds
+      Average Test Time: 1.34 seconds
               Attempted: 1
                  Passed: 1
                  Failed: 0
@@ -216,47 +216,12 @@ TestCase :: syslog_facility
   * TestStep ::  :: RESOURCE    
 [00;00m[00;37m    test_resource :: cmd:
     bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource syslog_facility 'aaa'
-[00;00m[00;37m    TestStep :: Match (?-mix:level +=> +'?4'?) :: PASS
-[00;00m[00;32m     :: RESOURCE     :: PASS
-[00;00m[00;37m  format_stepinfo :: () (IDEMPOTENCE)
-[00;00m[00;34m  
-  * TestStep ::  :: IDEMPOTENCE 
-[00;00m[00;37m    test_idempotence :: BEGIN
-[00;00m[00;32m     :: IDEMPOTENCE  :: PASS
-[00;00m[00;32m  
-  ------------------------------------------------------------
-  Section 2. Double Name Testing
-[00;00m[00;32m  
-    * Process test_harness_run
-[00;00m[00;34m  
-  * 
-  --------
-  Create resource command title string:
-    [:resource_name] 'syslog_facility'
-    [:title_pattern] 'ip igmp'
-[00;00m[00;32m    
-    title_string: 'ip igmp'
-[00;00m[00;32m  
-  --------
-   [ensure => present]
-[00;00m[00;37m  format_stepinfo :: () (MANIFEST)
-[00;00m[00;34m  
-  * TestStep ::  [ensure => present] :: MANIFEST    
-[00;00m[00;37m    test_manifest :: manifest:
-    0
-[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
-[00;00m[00;32m   [ensure => present] :: MANIFEST     :: PASS
-[00;00m[00;37m  format_stepinfo :: () (RESOURCE)
-[00;00m[00;34m  
-  * TestStep ::  :: RESOURCE    
-[00;00m[00;37m    test_resource :: cmd:
-    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource syslog_facility 'ip igmp'
 [00;00m[00;31m    stdout:
     --
     
     --
 [00;00m[01;31m    Warning: 
-    TestStep :: Match (?-mix:level +=> +'?6'?) :: FAIL
+    TestStep :: Match (?-mix:level +=> +'?4'?) :: FAIL
     
     /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/outcomes.rb:42
     /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:211
@@ -269,7 +234,7 @@ TestCase :: syslog_facility
     /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:368
     /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:299
     /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:930
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/syslog_facility/test_syslog_facility.rb:71
+    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/syslog_facility/test_syslog_facility.rb:67
     /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:124
     /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
     /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:123
@@ -288,7 +253,7 @@ TestCase :: syslog_facility
     /home/david/gems/ruby/2.5.0/bin/beaker:23
     /home/david/gems/ruby/2.5.0/bin/beaker:23
 [00;00m[00;31mBeaker::DSL::Outcomes::FailTest: 
-TestStep :: Match (?-mix:level +=> +'?6'?) :: FAIL
+TestStep :: Match (?-mix:level +=> +'?4'?) :: FAIL
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/outcomes.rb:44
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:211
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:204
@@ -300,7 +265,7 @@ TestStep :: Match (?-mix:level +=> +'?6'?) :: FAIL
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:368
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:299
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:930
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/syslog_facility/test_syslog_facility.rb:71
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/syslog_facility/test_syslog_facility.rb:67
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:124
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:123
@@ -324,15 +289,15 @@ TestStep :: Match (?-mix:level +=> +'?6'?) :: FAIL
 --------
  * TestStep :: absent clean
 [00;00m[00;32mEnd teardown
-[00;00m[00;31mtests/beaker_tests/syslog_facility/test_syslog_facility.rb failed in 382.37 seconds
-[00;00m      Test Suite: tests @ 2018-11-23 14:45:34 +0000
+[00;00m[00;31mtests/beaker_tests/syslog_facility/test_syslog_facility.rb failed in 183.00 seconds
+[00;00m      Test Suite: tests @ 2018-11-23 16:54:07 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'tests' -
-       Total Suite Time: 382.37 seconds
-      Average Test Time: 382.37 seconds
+       Total Suite Time: 183.00 seconds
+      Average Test Time: 183.00 seconds
               Attempted: 1
                  Passed: 0
                  Failed: 1
@@ -345,9 +310,9 @@ TestStep :: Match (?-mix:level +=> +'?6'?) :: FAIL
         
 Failed Tests Cases:
   Test Case tests/beaker_tests/syslog_facility/test_syslog_facility.rb reported: #<Beaker::DSL::Outcomes::FailTest: 
-TestStep :: Match (?-mix:level +=> +'?6'?) :: FAIL
+TestStep :: Match (?-mix:level +=> +'?4'?) :: FAIL
 >
-    Test line: tests/beaker_tests/syslog_facility/test_syslog_facility.rb:71:in `block (2 levels) in run_test'
+    Test line: tests/beaker_tests/syslog_facility/test_syslog_facility.rb:67:in `block (2 levels) in run_test'
 Errored Tests Cases:
 Skipped Tests Cases:
 Pending Tests Cases:
@@ -357,7 +322,7 @@ Pending Tests Cases:
 [00;00m[00;34mNo tests to run for suite 'post_suite'
 [00;00m[00;34mNo tests to run for suite 'pre_cleanup'
 [00;00m[00;34mCleanup: cleaning up after failed run
-[00;00m[00;34mHanding 'pmxq3bx78ic5yl5.delivery.puppetlabs.net' back to vmpooler for VM destruction
+[00;00m[00;34mHanding 'yjmwmg5hodgctj3.delivery.puppetlabs.net' back to vmpooler for VM destruction
 [00;00m[00;34mSpent 0.30 seconds cleaning up
 [00;00m[00;31m
 You can reproduce this run with:

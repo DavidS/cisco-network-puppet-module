@@ -1,2 +1,0 @@
-processing tests/beaker_tests/cisco_aaa_login_exec_svc/test_aaaloginexecsvc_negative.rb
-beaker .... -t tests/beaker_tests/cisco_aaa_login_exec_svc/test_aaaloginexecsvc_negative.rb

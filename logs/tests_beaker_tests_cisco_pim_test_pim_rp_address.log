@@ -8,10 +8,6 @@ processing tests/beaker_tests/cisco_pim/test_pim_rp_address.rb
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 1 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
 [00;00m[00;37mRetrying provision for vmpooler host after waiting 2 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
@@ -20,42 +16,30 @@ processing tests/beaker_tests/cisco_pim/test_pim_rp_address.rb
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 5 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 9 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 8 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 13 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 18 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 21 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 34 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 55 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 89 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 144 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;34mUsing available host 'a8c11spl92gc53s.delivery.puppetlabs.net' (cisconx-64-1)
-[00;00m[00;34mSpent 379.89 seconds grabbing VMs
+[00;00m[00;34mUsing available host 'c0852s6waot11as.delivery.puppetlabs.net' (cisconx-64-1)
+[00;00m[00;34mSpent 85.68 seconds grabbing VMs
 [00;00m[00;34mTagging vmpooler VMs
 [00;00m[00;34mSpent 0.30 seconds tagging VMs
 [00;00m[00;37mLooking for disks to add...
-[00;00m[00;37mNo disks to add for a8c11spl92gc53s
+[00;00m[00;37mNo disks to add for c0852s6waot11as
 [00;00m[00;37mCisco does not allow SSH control through the BASH shell
 [00;00m[00;32mBeaker!
 [00;00m[00;32m      wWWWw
@@ -134,7 +118,7 @@ processing tests/beaker_tests/cisco_pim/test_pim_rp_address.rb
     "puppetserver_port": 8140,
     "nodeclassifier_port": 4433,
     "cache_files_locally": false,
-    "aws_keyname_modifier": "3974013031",
+    "aws_keyname_modifier": "3598314638",
     "run_in_parallel": [],
     "use_fog_credentials": true,
     "ssh": {
@@ -192,34 +176,164 @@ processing tests/beaker_tests/cisco_pim/test_pim_rp_address.rb
     "install": [],
     "pre_cleanup": [],
     "modules": [],
-    "logger": "#<Beaker::Logger:0x000055f7c0cdb5f0>",
-    "timestamp": "2018-11-23 14:45:34 +0000",
+    "logger": "#<Beaker::Logger:0x0000556377eccba8>",
+    "timestamp": "2018-11-23 16:54:05 +0000",
     "beaker_version": "4.1.0",
     "log_prefix": "hosts",
-    "xml_dated_dir": "junit/hosts/2018-11-23_14_45_34",
-    "log_dated_dir": "log/hosts/2018-11-23_14_45_34",
-    "logger_sut": "#<Beaker::Logger:0x000055f7c0cdac90>"
+    "xml_dated_dir": "junit/hosts/2018-11-23_16_54_05",
+    "log_dated_dir": "log/hosts/2018-11-23_16_54_05",
+    "logger_sut": "#<Beaker::Logger:0x0000556377ecc248>"
 }
 [00;00m[00;32mBegin tests/beaker_tests/presuite/presuite_deploy.rb
 [00;00m[00;34m
 Prep Masters & Install Puppet
 [00;00m[00;32mBegin teardown
 [00;00m[00;32mEnd teardown
-[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 0.11 seconds
-[00;00m[00;31mFailed: errored in TestSuite :run_and_raise_on_failure
-[00;00m[00;31m#<Errno::ENOENT: No such file or directory @ apply2files - log/latest>
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:154
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:154
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:91
+[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 0.13 seconds
+[00;00m      Test Suite: pre_suite @ 2018-11-23 16:55:32 +0000
+
+      - Host Configuration Summary -
+
+
+              - Test Case Summary for suite 'pre_suite' -
+       Total Suite Time: 0.13 seconds
+      Average Test Time: 0.13 seconds
+              Attempted: 1
+                 Passed: 1
+                 Failed: 0
+                Errored: 0
+                Skipped: 0
+                Pending: 0
+                  Total: 1
+
+      - Specific Test Case Status -
+        
+Failed Tests Cases:
+Errored Tests Cases:
+Skipped Tests Cases:
+Pending Tests Cases:
+
+[00;32mBegin tests/beaker_tests/cisco_pim/test_pim_rp_address.rb
+[00;00m[00;34m
+TestCase :: cisco_pim_rp_address
+[00;00m[00;32m  no feature pim
+[00;00m[00;32m  
+  ------------------------------------------------------------
+  Section 1. Title Pattern Testing
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_pim_rp_address'
+    [:title_pattern] 'new_york'
+    [:title_params]  {:afi=>"ipv4", :vrf=>"red", :rp_addr=>"1.1.1.1"}
+[00;00m[00;32m    
+    title_string: 'ipv4 red 1.1.1.1'
+[00;00m[00;32m  
+  --------
+  T.1 Title Pattern [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (T.1 Title Pattern) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: T.1 Title Pattern [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
+[00;00m[00;32m  T.1 Title Pattern [ensure => present] :: MANIFEST     :: PASS
+[00;00m[00;37m  format_stepinfo :: (T.1 Title Pattern) (RESOURCE)
+[00;00m[00;34m  
+  * TestStep :: T.1 Title Pattern :: RESOURCE    
+[00;00m[00;37m    test_resource :: cmd:
+    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource cisco_pim_rp_address 'ipv4 red 1.1.1.1'
+[00;00m[00;37m    TestStep :: Match (?-mix:ensure +=> +'?'?) :: PASS
+[00;00m[00;32m    T.1 Title Pattern :: RESOURCE     :: PASS
+[00;00m[00;37m  format_stepinfo :: (T.1 Title Pattern) (IDEMPOTENCE)
+[00;00m[00;34m  
+  * TestStep :: T.1 Title Pattern :: IDEMPOTENCE 
+[00;00m[00;37m    test_idempotence :: BEGIN
+[00;00m[00;32m    T.1 Title Pattern :: IDEMPOTENCE  :: PASS
+[00;00m[00;32m  
+    * Process test_harness_run
+[00;00m[00;34m  
+  * 
+  --------
+  Create resource command title string:
+    [:resource_name] 'cisco_pim_rp_address'
+    [:title_pattern] 'ipv4'
+    [:title_params]  {:vrf=>"blue", :rp_addr=>"1.1.1.1"}
+[00;00m[00;32m    
+    title_string: 'ipv4 blue 1.1.1.1'
+[00;00m[00;32m  
+  --------
+  T.2 Title Pattern [ensure => present]
+[00;00m[00;37m  format_stepinfo :: (T.2 Title Pattern) (MANIFEST)
+[00;00m[00;34m  
+  * TestStep :: T.2 Title Pattern [ensure => present] :: MANIFEST    
+[00;00m[00;37m    test_manifest :: manifest:
+    0
+[00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
+[00;00m[00;31mRuntimeError: Errored test
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:356
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:44
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:43
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:337
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:298
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:930
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/cisco_pim/test_pim_rp_address.rb:75
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:124
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:123
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/cisco_pim/test_pim_rp_address.rb:68
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:133
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:133
+[00;00m[00;31m/usr/lib/ruby/2.5.0/benchmark.rb:308
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:130
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:66
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:63
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:63
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:112
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:192
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:114
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:118
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m[00;32mBegin teardown
+[00;00m[00;32mno feature pim
+[00;00m[00;32mEnd teardown
+[00;00m[01;31mWarning: tests/beaker_tests/cisco_pim/test_pim_rp_address.rb errored in 350.32 seconds
+[00;00m      Test Suite: tests @ 2018-11-23 16:55:32 +0000
+
+      - Host Configuration Summary -
+
+
+              - Test Case Summary for suite 'tests' -
+       Total Suite Time: 350.32 seconds
+      Average Test Time: 350.32 seconds
+              Attempted: 1
+                 Passed: 0
+                 Failed: 0
+                Errored: 1
+                Skipped: 0
+                Pending: 0
+                  Total: 1
+
+      - Specific Test Case Status -
+        
+Failed Tests Cases:
+Errored Tests Cases:
+  Test Case tests/beaker_tests/cisco_pim/test_pim_rp_address.rb reported: #<RuntimeError: Errored test>
+    Test line: tests/beaker_tests/cisco_pim/test_pim_rp_address.rb:75:in `block (2 levels) in run_test'
+Skipped Tests Cases:
+Pending Tests Cases:
+
+[00;31mFailed: errored in TestSuite: report_and_raise_on_failure
+[00;00m[00;31m#<RuntimeError: Failed while running the tests suite>
+[00;00m[00;34mNo tests to run for suite 'post_suite'
 [00;00m[00;34mNo tests to run for suite 'pre_cleanup'
 [00;00m[00;34mCleanup: cleaning up after failed run
-[00;00m[00;34mHanding 'a8c11spl92gc53s.delivery.puppetlabs.net' back to vmpooler for VM destruction
+[00;00m[00;34mHanding 'c0852s6waot11as.delivery.puppetlabs.net' back to vmpooler for VM destruction
 [00;00m[00;34mSpent 0.30 seconds cleaning up
 [00;00m[00;31m
 You can reproduce this run with:
@@ -228,7 +342,7 @@ You can reproduce this run with:
 Important ENV variables that may have affected your run:
 [00;00m[00;31m    GEM_HOME		/home/david/gems/ruby/2.5.0
 [00;00m[00;31m    GEM_PATH		
-[00;00m[00;31m    PATH		/home/david/gems/ruby/2.5.0/bin:/home/david/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/puppetlabs/bin:/home/david/go/bin
+[00;00m[00;31m    PATH		/home/david/gems/ruby/2.5.0/bin:/home/david/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/puppetlabs/bin:/home/david/go/bin:/usr/sbin:/sbin
 [00;00m[00;31m    home		/home/david
 [00;00m[00;31m    pe_dir		http://enterprise.delivery.puppetlabs.net/archives/releases/2018.1.0
 [00;00m[00;31m    puppet_agent_version		5.5.1

@@ -2,12 +2,12 @@ processing tests/beaker_tests/ntp_config/test_ntp_config.rb
 [00;37mHypervisor for cisconx-64-1 is vmpooler
 [00;00m[00;34mBeaker::Hypervisor, found some vmpooler boxes to create
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;34mUsing available host 'banylegbtgwj6mb.delivery.puppetlabs.net' (cisconx-64-1)
-[00;00m[00;34mSpent 0.34 seconds grabbing VMs
+[00;00m[00;34mUsing available host 'wvad77h7h41pbpj.delivery.puppetlabs.net' (cisconx-64-1)
+[00;00m[00;34mSpent 0.35 seconds grabbing VMs
 [00;00m[00;34mTagging vmpooler VMs
 [00;00m[00;34mSpent 0.30 seconds tagging VMs
 [00;00m[00;37mLooking for disks to add...
-[00;00m[00;37mNo disks to add for banylegbtgwj6mb
+[00;00m[00;37mNo disks to add for wvad77h7h41pbpj
 [00;00m[00;37mCisco does not allow SSH control through the BASH shell
 [00;00m[00;32mBeaker!
 [00;00m[00;32m      wWWWw
@@ -86,7 +86,7 @@ processing tests/beaker_tests/ntp_config/test_ntp_config.rb
     "puppetserver_port": 8140,
     "nodeclassifier_port": 4433,
     "cache_files_locally": false,
-    "aws_keyname_modifier": "7811180559",
+    "aws_keyname_modifier": "3963169190",
     "run_in_parallel": [],
     "use_fog_credentials": true,
     "ssh": {
@@ -144,28 +144,28 @@ processing tests/beaker_tests/ntp_config/test_ntp_config.rb
     "install": [],
     "pre_cleanup": [],
     "modules": [],
-    "logger": "#<Beaker::Logger:0x00005617165dfc18>",
-    "timestamp": "2018-11-23 14:45:31 +0000",
+    "logger": "#<Beaker::Logger:0x000055a43714a240>",
+    "timestamp": "2018-11-23 16:54:04 +0000",
     "beaker_version": "4.1.0",
     "log_prefix": "hosts",
-    "xml_dated_dir": "junit/hosts/2018-11-23_14_45_31",
-    "log_dated_dir": "log/hosts/2018-11-23_14_45_31",
-    "logger_sut": "#<Beaker::Logger:0x00005617165dc680>"
+    "xml_dated_dir": "junit/hosts/2018-11-23_16_54_04",
+    "log_dated_dir": "log/hosts/2018-11-23_16_54_04",
+    "logger_sut": "#<Beaker::Logger:0x000055a437149660>"
 }
 [00;00m[00;32mBegin tests/beaker_tests/presuite/presuite_deploy.rb
 [00;00m[00;34m
 Prep Masters & Install Puppet
 [00;00m[00;32mBegin teardown
 [00;00m[00;32mEnd teardown
-[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 1.63 seconds
-[00;00m      Test Suite: pre_suite @ 2018-11-23 14:45:32 +0000
+[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 1.36 seconds
+[00;00m      Test Suite: pre_suite @ 2018-11-23 16:54:05 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'pre_suite' -
-       Total Suite Time: 1.63 seconds
-      Average Test Time: 1.63 seconds
+       Total Suite Time: 1.36 seconds
+      Average Test Time: 1.36 seconds
               Attempted: 1
                  Passed: 1
                  Failed: 0
@@ -250,62 +250,13 @@ TestCase :: ntp_config
 [00;00m[00;37m    test_manifest :: manifest:
     0
 [00;00m[00;37m    test_manifest :: check puppet apply cmd (code: [2])
-[00;00m[00;32m  2.1 Non Default Properties [ensure => present] :: MANIFEST     :: PASS
-[00;00m[00;37m  format_stepinfo :: (2.1 Non Default Properties) (RESOURCE)
-[00;00m[00;34m  
-  * TestStep :: 2.1 Non Default Properties :: RESOURCE    
-[00;00m[00;37m    test_resource :: cmd:
-    bundle exec puppet device --verbose --trace --strict=error --modulepath spec/fixtures/modules --deviceconfig spec/fixtures/acceptance-device.conf --target sut --libdir lib/  --resource ntp_config 'default'
-[00;00m[00;37m    TestStep :: Match (?-mix:authenticate +=> +'?true'?) :: PASS
-[00;00m[00;37m    TestStep :: Match (?-mix:source_interface +=> +'?ethernet1\/10'?) :: PASS
-[00;00m[00;31m    stdout:
-    --
-    
-    --
-[00;00m[01;31m    Warning: 
-    TestStep :: Match (?-mix:trusted_key +=> +'?\[\n? *'1'\]'?) :: FAIL
-    
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/outcomes.rb:42
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:211
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:204
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:204
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:379
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:44
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:43
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:368
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:299
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:930
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/ntp_config/test_ntp_config.rb:84
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:124
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:123
-    /home/david/git/cisco-network-puppet-module/tests/beaker_tests/ntp_config/test_ntp_config.rb:72
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:133
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:133
-    /usr/lib/ruby/2.5.0/benchmark.rb:308
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_case.rb:130
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:66
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:63
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:63
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:112
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:192
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:118
-    /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9
-    /home/david/gems/ruby/2.5.0/bin/beaker:23
-    /home/david/gems/ruby/2.5.0/bin/beaker:23
-[00;00m[00;31mBeaker::DSL::Outcomes::FailTest: 
-TestStep :: Match (?-mix:trusted_key +=> +'?\[\n? *'1'\]'?) :: FAIL
-[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/outcomes.rb:44
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:211
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:204
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:204
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:379
+[00;00m[00;31mRuntimeError: Errored test
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:356
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:44
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger.rb:239
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:43
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:368
-[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:299
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:337
+[00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:298
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:930
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/ntp_config/test_ntp_config.rb:84
 [00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/dsl/structure.rb:124
@@ -328,19 +279,19 @@ TestStep :: Match (?-mix:trusted_key +=> +'?\[\n? *'1'\]'?) :: FAIL
 [00;00m[00;32mBegin teardown
 [00;00m[00;32mno ntp authentication-key 1 md5 test 7
 [00;00m[00;32mEnd teardown
-[00;00m[00;31mtests/beaker_tests/ntp_config/test_ntp_config.rb failed in 441.34 seconds
-[00;00m      Test Suite: tests @ 2018-11-23 14:45:34 +0000
+[00;00m[01;31mWarning: tests/beaker_tests/ntp_config/test_ntp_config.rb errored in 415.21 seconds
+[00;00m      Test Suite: tests @ 2018-11-23 16:54:07 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'tests' -
-       Total Suite Time: 441.34 seconds
-      Average Test Time: 441.34 seconds
+       Total Suite Time: 415.20 seconds
+      Average Test Time: 415.20 seconds
               Attempted: 1
                  Passed: 0
-                 Failed: 1
-                Errored: 0
+                 Failed: 0
+                Errored: 1
                 Skipped: 0
                 Pending: 0
                   Total: 1
@@ -348,11 +299,9 @@ TestStep :: Match (?-mix:trusted_key +=> +'?\[\n? *'1'\]'?) :: FAIL
       - Specific Test Case Status -
         
 Failed Tests Cases:
-  Test Case tests/beaker_tests/ntp_config/test_ntp_config.rb reported: #<Beaker::DSL::Outcomes::FailTest: 
-TestStep :: Match (?-mix:trusted_key +=> +'?\[\n? *'1'\]'?) :: FAIL
->
-    Test line: tests/beaker_tests/ntp_config/test_ntp_config.rb:84:in `block (2 levels) in run_test'
 Errored Tests Cases:
+  Test Case tests/beaker_tests/ntp_config/test_ntp_config.rb reported: #<RuntimeError: Errored test>
+    Test line: tests/beaker_tests/ntp_config/test_ntp_config.rb:84:in `block (2 levels) in run_test'
 Skipped Tests Cases:
 Pending Tests Cases:
 
@@ -361,7 +310,7 @@ Pending Tests Cases:
 [00;00m[00;34mNo tests to run for suite 'post_suite'
 [00;00m[00;34mNo tests to run for suite 'pre_cleanup'
 [00;00m[00;34mCleanup: cleaning up after failed run
-[00;00m[00;34mHanding 'banylegbtgwj6mb.delivery.puppetlabs.net' back to vmpooler for VM destruction
+[00;00m[00;34mHanding 'wvad77h7h41pbpj.delivery.puppetlabs.net' back to vmpooler for VM destruction
 [00;00m[00;34mSpent 0.30 seconds cleaning up
 [00;00m[00;31m
 You can reproduce this run with:

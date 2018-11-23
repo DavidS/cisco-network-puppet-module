@@ -1,2 +1,0 @@
-processing tests/beaker_tests/cisco_aaa_login_cfg_svc/aaalogincfgsvclib.rb
-beaker .... -t tests/beaker_tests/cisco_aaa_login_cfg_svc/aaalogincfgsvclib.rb

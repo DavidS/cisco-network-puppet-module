@@ -1,2 +1,0 @@
-processing tests/beaker_tests/test_something/test_test_something.rb
-beaker .... -t tests/beaker_tests/test_something/test_test_something.rb

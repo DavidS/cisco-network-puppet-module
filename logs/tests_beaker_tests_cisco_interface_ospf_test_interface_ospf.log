@@ -8,62 +8,50 @@ processing tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 1 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 2 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 3 second(s)
-[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
-{"ok"=>false}
 [00;00m[00;37mRetrying provision for vmpooler host after waiting 5 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 8 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 9 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 13 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 21 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 34 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 17 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 55 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 15 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 89 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 144 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 19 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 233 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 16 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
 [00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
 {"ok"=>false}
-[00;00m[00;37mRetrying provision for vmpooler host after waiting 377 second(s)
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 18 second(s)
 [00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
-[00;00m[00;34mUsing available host 'mruq6q9t0g2y70u.delivery.puppetlabs.net' (cisconx-64-1)
-[00;00m[00;34mSpent 990.52 seconds grabbing VMs
+[00;00m[00;34mUsing available host 'aic3zauung1ingt.delivery.puppetlabs.net' (cisconx-64-1)
+[00;00m[00;34mSpent 156.58 seconds grabbing VMs
 [00;00m[00;34mTagging vmpooler VMs
-[00;00m[00;34mSpent 0.31 seconds tagging VMs
+[00;00m[00;34mSpent 0.30 seconds tagging VMs
 [00;00m[00;37mLooking for disks to add...
-[00;00m[00;37mNo disks to add for mruq6q9t0g2y70u
+[00;00m[00;37mNo disks to add for aic3zauung1ingt
 [00;00m[00;37mCisco does not allow SSH control through the BASH shell
 [00;00m[00;32mBeaker!
 [00;00m[00;32m      wWWWw
@@ -142,7 +130,7 @@ processing tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb
     "puppetserver_port": 8140,
     "nodeclassifier_port": 4433,
     "cache_files_locally": false,
-    "aws_keyname_modifier": "9837125736",
+    "aws_keyname_modifier": "0234502339",
     "run_in_parallel": [],
     "use_fog_credentials": true,
     "ssh": {
@@ -200,28 +188,28 @@ processing tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb
     "install": [],
     "pre_cleanup": [],
     "modules": [],
-    "logger": "#<Beaker::Logger:0x000055caaf80cad0>",
-    "timestamp": "2018-11-23 14:45:35 +0000",
+    "logger": "#<Beaker::Logger:0x000055d96e2b1770>",
+    "timestamp": "2018-11-23 16:54:07 +0000",
     "beaker_version": "4.1.0",
     "log_prefix": "hosts",
-    "xml_dated_dir": "junit/hosts/2018-11-23_14_45_35",
-    "log_dated_dir": "log/hosts/2018-11-23_14_45_35",
-    "logger_sut": "#<Beaker::Logger:0x000055caaf80c170>"
+    "xml_dated_dir": "junit/hosts/2018-11-23_16_54_07",
+    "log_dated_dir": "log/hosts/2018-11-23_16_54_07",
+    "logger_sut": "#<Beaker::Logger:0x000055d96e2b0e10>"
 }
 [00;00m[00;32mBegin tests/beaker_tests/presuite/presuite_deploy.rb
 [00;00m[00;34m
 Prep Masters & Install Puppet
 [00;00m[00;32mBegin teardown
 [00;00m[00;32mEnd teardown
-[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 0.32 seconds
-[00;00m      Test Suite: pre_suite @ 2018-11-23 15:02:07 +0000
+[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 0.07 seconds
+[00;00m      Test Suite: pre_suite @ 2018-11-23 16:56:44 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'pre_suite' -
-       Total Suite Time: 0.32 seconds
-      Average Test Time: 0.32 seconds
+       Total Suite Time: 0.07 seconds
+      Average Test Time: 0.07 seconds
               Attempted: 1
                  Passed: 1
                  Failed: 0
@@ -237,29 +225,7 @@ Errored Tests Cases:
 Skipped Tests Cases:
 Pending Tests Cases:
 
-[00;31mfailure in XML output: 
-Missing end tag for '' (got "testsuite")
-Line: 906
-Position: 58709
-Last 80 unconsumed characters:
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:341:in `pull_event'
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:185:in `pull'
-/usr/lib/ruby/2.5.0/rexml/parsers/treeparser.rb:23:in `parse'
-/usr/lib/ruby/2.5.0/rexml/document.rb:288:in `build'
-/usr/lib/ruby/2.5.0/rexml/document.rb:45:in `initialize'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `new'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `get_doc_for_filename'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:59:in `get_xml_contents'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:22:in `write_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite_result.rb:170:in `write_junit_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:99:in `run'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:112:in `run_and_raise_on_failure'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:192:in `run_suite'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:114:in `execute!'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9:in `<top (required)>'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `load'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `<main>'
-[00;00m[00;32mBegin tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb
+[00;32mBegin tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb
 [00;00m[00;32m
 ------------------------------------------------------------
   Find a suitable interface
@@ -285,7 +251,7 @@ TestCase :: cisco_interface_ospf
     [:title_pattern] 'ethernet1/10 Sample'
 [00;00m[00;32m    
     title_string: 'ethernet1/10 Sample'
-[00;00m[00;31mNameError: undefined local variable or method `agent' for #<Class:0x000055caaebf54b8>::TestInterfaceOspf
+[00;00m[00;31mNameError: undefined local variable or method `agent' for #<Class:0x000055d96e234950>::TestInterfaceOspf
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb:113
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/lib/utilitylib.rb:928
 [00;00m[00;31m/home/david/git/cisco-network-puppet-module/tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb:134
@@ -312,15 +278,15 @@ TestCase :: cisco_interface_ospf
 * TestStep :: Interface Clean:
 [00;00m[00;32m    * Interface Clean: Set 'ethernet1/10' to default state
 [00;00m[00;32mEnd teardown
-[00;00m[01;31mWarning: tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb errored in 182.20 seconds
-[00;00m      Test Suite: tests @ 2018-11-23 15:02:07 +0000
+[00;00m[01;31mWarning: tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb errored in 195.89 seconds
+[00;00m      Test Suite: tests @ 2018-11-23 16:56:44 +0000
 
       - Host Configuration Summary -
 
 
               - Test Case Summary for suite 'tests' -
-       Total Suite Time: 182.20 seconds
-      Average Test Time: 182.20 seconds
+       Total Suite Time: 195.89 seconds
+      Average Test Time: 195.89 seconds
               Attempted: 1
                  Passed: 0
                  Failed: 0
@@ -333,39 +299,17 @@ TestCase :: cisco_interface_ospf
         
 Failed Tests Cases:
 Errored Tests Cases:
-  Test Case tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb reported: #<NameError: undefined local variable or method `agent' for #<Class:0x000055caaebf54b8>::TestInterfaceOspf>
+  Test Case tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb reported: #<NameError: undefined local variable or method `agent' for #<Class:0x000055d96e234950>::TestInterfaceOspf>
     Test line: tests/beaker_tests/cisco_interface_ospf/test_interface_ospf.rb:113:in `test_harness_dependencies'
 Skipped Tests Cases:
 Pending Tests Cases:
 
-[00;31mfailure in XML output: 
-Missing end tag for '' (got "testsuite")
-Line: 906
-Position: 58709
-Last 80 unconsumed characters:
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:341:in `pull_event'
-/usr/lib/ruby/2.5.0/rexml/parsers/baseparser.rb:185:in `pull'
-/usr/lib/ruby/2.5.0/rexml/parsers/treeparser.rb:23:in `parse'
-/usr/lib/ruby/2.5.0/rexml/document.rb:288:in `build'
-/usr/lib/ruby/2.5.0/rexml/document.rb:45:in `initialize'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `new'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:108:in `get_doc_for_filename'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:59:in `get_xml_contents'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/logger_junit.rb:22:in `write_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite_result.rb:170:in `write_junit_xml'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:99:in `run'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/test_suite.rb:112:in `run_and_raise_on_failure'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:192:in `run_suite'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:118:in `execute!'
-/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9:in `<top (required)>'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `load'
-/home/david/gems/ruby/2.5.0/bin/beaker:23:in `<main>'
-[00;00m[00;31mFailed: errored in TestSuite: report_and_raise_on_failure
+[00;31mFailed: errored in TestSuite: report_and_raise_on_failure
 [00;00m[00;31m#<RuntimeError: Failed while running the tests suite>
 [00;00m[00;34mNo tests to run for suite 'post_suite'
 [00;00m[00;34mNo tests to run for suite 'pre_cleanup'
 [00;00m[00;34mCleanup: cleaning up after failed run
-[00;00m[00;34mHanding 'mruq6q9t0g2y70u.delivery.puppetlabs.net' back to vmpooler for VM destruction
+[00;00m[00;34mHanding 'aic3zauung1ingt.delivery.puppetlabs.net' back to vmpooler for VM destruction
 [00;00m[00;34mSpent 0.30 seconds cleaning up
 [00;00m[00;31m
 You can reproduce this run with:
