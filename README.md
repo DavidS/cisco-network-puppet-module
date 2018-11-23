@@ -6104,5 +6104,5 @@ $ mkdir -p logs; find tests/beaker_tests -type f | while read i; do testname=$(b
 To summarize findings:
 
 ```
-$ grep -rhE 'Attempted|Passed' logs/ | awk -e '/Attempted/ { a += $2 } /Passed/ { p += $2 } END { print "Attempted: ", a, "  Passed: ", p } '
+tail -n 50 logs/* | awk -e '/Attempted/ { a += $2 } /Passed/ { p += $2 } END { print "Attempted: ", a, "  Passed: ", p } '
 ```
