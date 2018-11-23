@@ -1,0 +1,274 @@
+processing tests/beaker_tests/cisco_encapsulation/test_encapsulation.rb
+[00;37mHypervisor for cisconx-64-1 is vmpooler
+[00;00m[00;34mBeaker::Hypervisor, found some vmpooler boxes to create
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 1 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 1 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 2 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 3 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 5 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 8 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 13 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 21 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 34 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;34mUsing available host 'r0tyfbszron6068.delivery.puppetlabs.net' (cisconx-64-1)
+[00;00m[00;34mSpent 91.03 seconds grabbing VMs
+[00;00m[00;34mTagging vmpooler VMs
+[00;00m[00;34mSpent 0.30 seconds tagging VMs
+[00;00m[00;37mLooking for disks to add...
+[00;00m[00;37mNo disks to add for r0tyfbszron6068
+[00;00m[00;37mCisco does not allow SSH control through the BASH shell
+[00;00m[00;32mBeaker!
+[00;00m[00;32m      wWWWw
+      |o o|
+      | O |  4.1.0!
+      |(")|
+     / \X/ \
+    |   V   |
+    |   |   | 
+[00;00m[00;32m{
+    "project": "Beaker",
+    "department": "unknown",
+    "created_by": "david",
+    "host_tags": {},
+    "openstack_api_key": null,
+    "openstack_username": null,
+    "openstack_auth_url": "/tokens",
+    "openstack_tenant": null,
+    "openstack_keyname": null,
+    "openstack_network": null,
+    "openstack_region": null,
+    "openstack_volume_support": true,
+    "jenkins_build_url": null,
+    "validate": true,
+    "configure": true,
+    "log_level": "debug",
+    "trace_limit": 10,
+    "master-start-curl-retries": 120,
+    "masterless": true,
+    "options_file": null,
+    "type": "pe",
+    "provision": true,
+    "preserve_hosts": "never",
+    "root_keys": false,
+    "quiet": false,
+    "project_root": "/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker",
+    "xml_dir": "junit",
+    "xml_file": "beaker_junit.xml",
+    "xml_time": "beaker_times.xml",
+    "xml_time_enabled": false,
+    "xml_stylesheet": "junit.xsl",
+    "default_log_prefix": "beaker_logs",
+    "log_dir": "log",
+    "log_sut_event": "sut.log",
+    "color": true,
+    "dry_run": false,
+    "test_tag_and": [],
+    "test_tag_or": [],
+    "test_tag_exclude": [],
+    "timeout": 900,
+    "fail_mode": "slow",
+    "accept_all_exit_codes": false,
+    "timesync": false,
+    "disable_iptables": false,
+    "set_env": true,
+    "disable_updates": false,
+    "repo_proxy": false,
+    "package_proxy": false,
+    "add_el_extras": false,
+    "epel_url": "http://dl.fedoraproject.org/pub/epel",
+    "epel_url_archive": "http://archive.fedoraproject.org/pub/archive/epel",
+    "consoleport": 443,
+    "pe_dir": "http://enterprise.delivery.puppetlabs.net/archives/releases/2018.1.0",
+    "pe_version_file": "LATEST",
+    "pe_version_file_win": "LATEST-win",
+    "host_env": {},
+    "host_name_prefix": null,
+    "ssh_env_file": "~/.ssh/environment",
+    "profile_d_env_file": "/etc/profile.d/beaker_env.sh",
+    "dot_fog": "/home/david/.fog",
+    "ec2_yaml": "config/image_templates/ec2.yaml",
+    "help": false,
+    "collect_perf_data": "none",
+    "puppetdb_port_ssl": 8081,
+    "puppetdb_port_nonssl": 8080,
+    "puppetserver_port": 8140,
+    "nodeclassifier_port": 4433,
+    "cache_files_locally": false,
+    "aws_keyname_modifier": "9826687627",
+    "run_in_parallel": [],
+    "use_fog_credentials": true,
+    "ssh": {
+        "config": false,
+        "verify_host_key": false,
+        "auth_methods": [
+            "publickey"
+        ],
+        "port": 22,
+        "forward_agent": true,
+        "keys": [
+            "/home/david/.ssh/id_rsa"
+        ],
+        "user_known_hosts_file": "/home/david/.ssh/known_hosts",
+        "keepalive": true
+    },
+    "hosts_file": "/home/david/git/cisco-network-puppet-module/hosts.yml",
+    "pre_suite": [
+        "tests/beaker_tests/presuite/presuite_deploy.rb"
+    ],
+    "tests": [
+        "tests/beaker_tests/cisco_encapsulation/test_encapsulation.rb"
+    ],
+    "command_line": "/home/david/gems/ruby/2.5.0/bin/beaker --color --debug --hosts hosts.yml --pre-suite tests/beaker_tests/presuite/presuite_deploy.rb -t tests/beaker_tests/cisco_encapsulation/test_encapsulation.rb",
+    "HOSTS": {
+        "cisconx-64-1": {
+            "pe_dir": null,
+            "pe_ver": null,
+            "pe_upgrade_dir": null,
+            "pe_upgrade_ver": null,
+            "hypervisor": "vmpooler",
+            "platform": "cisco_nexus-7-x86_64",
+            "packaging_platform": "cisco-wrlinux-5-x86_64",
+            "vrf": "management",
+            "ssh": {
+                "user": "admin",
+                "password": "admin"
+            },
+            "template": "cisco-nxos-9k-x86_64",
+            "roles": [
+                "default"
+            ],
+            "user": "admin",
+            "host_tags": {}
+        }
+    },
+    "nfs_server": "none",
+    "pooling_api": "http://vmpooler.delivery.puppetlabs.net/",
+    "home": "/home/david",
+    "puppet_agent_version": "5.5.1",
+    "pe_ver": "2018.1.0",
+    "helper": [],
+    "load_path": [],
+    "post_suite": [],
+    "install": [],
+    "pre_cleanup": [],
+    "modules": [],
+    "logger": "#<Beaker::Logger:0x0000558f868026e8>",
+    "timestamp": "2018-11-23 14:45:32 +0000",
+    "beaker_version": "4.1.0",
+    "log_prefix": "hosts",
+    "xml_dated_dir": "junit/hosts/2018-11-23_14_45_32",
+    "log_dated_dir": "log/hosts/2018-11-23_14_45_32",
+    "logger_sut": "#<Beaker::Logger:0x0000558f86801d88>"
+}
+[00;00m[00;32mBegin tests/beaker_tests/presuite/presuite_deploy.rb
+[00;00m[00;34m
+Prep Masters & Install Puppet
+[00;00m[00;32mBegin teardown
+[00;00m[00;32mEnd teardown
+[00;00m[00;35mtests/beaker_tests/presuite/presuite_deploy.rb passed in 0.11 seconds
+[00;00m      Test Suite: pre_suite @ 2018-11-23 14:47:04 +0000
+
+      - Host Configuration Summary -
+
+
+              - Test Case Summary for suite 'pre_suite' -
+       Total Suite Time: 0.11 seconds
+      Average Test Time: 0.11 seconds
+              Attempted: 1
+                 Passed: 1
+                 Failed: 0
+                Errored: 0
+                Skipped: 0
+                Pending: 0
+                  Total: 1
+
+      - Specific Test Case Status -
+        
+Failed Tests Cases:
+Errored Tests Cases:
+Skipped Tests Cases:
+Pending Tests Cases:
+
+[00;32mBegin tests/beaker_tests/cisco_encapsulation/test_encapsulation.rb
+[00;00m[00;32m
+Found Platform string: 'NX-OSv Chassis', Alias to: 'n9k'
+[00;00m[00;34m
+
+TestCase :: 
+######################################################################################
+Skipping all tests; 'cisco_encapsulation' (or test file) is not supported on this node
+######################################################################################
+ :: SKIP
+[00;00m[00;32mBegin teardown
+[00;00m[00;32mEnd teardown
+[00;00m[01;31mWarning: tests/beaker_tests/cisco_encapsulation/test_encapsulation.rb skipped in 109.00 seconds
+[00;00m      Test Suite: tests @ 2018-11-23 14:47:04 +0000
+
+      - Host Configuration Summary -
+
+
+              - Test Case Summary for suite 'tests' -
+       Total Suite Time: 109.00 seconds
+      Average Test Time: 109.00 seconds
+              Attempted: 1
+                 Passed: 0
+                 Failed: 0
+                Errored: 0
+                Skipped: 1
+                Pending: 0
+                  Total: 1
+
+      - Specific Test Case Status -
+        
+Failed Tests Cases:
+Errored Tests Cases:
+Skipped Tests Cases:
+  Test Case tests/beaker_tests/cisco_encapsulation/test_encapsulation.rb 
+Pending Tests Cases:
+
+[00;34mNo tests to run for suite 'post_suite'
+[00;00m[00;34mNo tests to run for suite 'pre_cleanup'
+[00;00m[00;34mCleanup: cleaning up after successful run
+[00;00m[00;34mHanding 'r0tyfbszron6068.delivery.puppetlabs.net' back to vmpooler for VM destruction
+[00;00m[00;34mSpent 0.30 seconds cleaning up
+[00;00m[00;37m
+You can reproduce this run with:
+[00;00m[00;37m/home/david/gems/ruby/2.5.0/bin/beaker --color --debug --hosts hosts.yml --pre-suite tests/beaker_tests/presuite/presuite_deploy.rb -t tests/beaker_tests/cisco_encapsulation/test_encapsulation.rb
+[00;00m[00;37m
+Important ENV variables that may have affected your run:
+[00;00m[00;37m    GEM_HOME		/home/david/gems/ruby/2.5.0
+[00;00m[00;37m    GEM_PATH		
+[00;00m[00;37m    PATH		/home/david/gems/ruby/2.5.0/bin:/home/david/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/opt/puppetlabs/bin:/home/david/go/bin:/usr/sbin:/sbin
+[00;00m[00;37m    home		/home/david
+[00;00m[00;37m    pe_dir		http://enterprise.delivery.puppetlabs.net/archives/releases/2018.1.0
+[00;00m[00;37m    puppet_agent_version		5.5.1
+[00;00m[00;37m    pe_ver		2018.1.0
+[00;00mBeaker completed successfully, thanks.

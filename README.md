@@ -6092,3 +6092,17 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ~~~
+
+# experiments
+
+From the module directory:
+
+```
+$ mkdir -p logs; find tests/beaker_tests -type f | while read i; do testname=$(basename ${i//\//_} .rb); (echo processing $i; bundle exec beaker --color --debug --hosts hosts.yml --pre-suite tests/beaker_tests/presuite/presuite_deploy.rb -t $i ) > logs/${testname}.log 2>&1 & done; wait
+```
+
+To summarize findings:
+
+```
+$ grep -rhE 'Attempted|Passed' logs/ | awk -e '/Attempted/ { a += $2 } /Passed/ { p += $2 } END { print "Attempted: ", a, "  Passed: ", p } '
+```

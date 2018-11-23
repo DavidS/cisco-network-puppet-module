@@ -1,0 +1,112 @@
+processing tests/beaker_tests/cisco_snmp_server/test_snmp_server.rb
+[00;37mHypervisor for cisconx-64-1 is vmpooler
+[00;00m[00;34mBeaker::Hypervisor, found some vmpooler boxes to create
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 1 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 1 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 2 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 3 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 5 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 8 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 13 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 21 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 34 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 55 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 89 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 144 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 233 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;37mRetrying provision for vmpooler host after waiting 377 second(s)
+[00;00m[00;34mRequesting VM set from vmpooler (with authentication token)
+[00;00m[00;37mFailed vmpooler provision: RuntimeError : Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}
+[00;00m[00;31mFailed: errored in Vmpooler.provision
+[00;00m[00;31m#<RuntimeError: Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}>
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-vmpooler-1.3.0/lib/beaker/hypervisor/vmpooler.rb:163
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/hypervisor.rb:37
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:73
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:85
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:71
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m[00;31mFailed: errored in CLI.initialize_network_manager
+[00;00m[00;31m#<RuntimeError: Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}>
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-vmpooler-1.3.0/lib/beaker/hypervisor/vmpooler.rb:163
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/hypervisor.rb:37
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:73
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:85
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:71
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m[00;31mFailed: errored in CLI.provision
+[00;00m[00;31m#<RuntimeError: Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler.
+{"ok"=>false}>
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-vmpooler-1.3.0/lib/beaker/hypervisor/vmpooler.rb:163
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/hypervisor.rb:37
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:73
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:85
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:71
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m[00;31m/home/david/gems/ruby/2.5.0/bin/beaker:23
+[00;00m/home/david/gems/ruby/2.5.0/gems/beaker-vmpooler-1.3.0/lib/beaker/hypervisor/vmpooler.rb:163:in `provision': Vmpooler.provision - response from pooler not ok. Requested host set ["cisco-nxos-9k-x86_64"] not available in pooler. (RuntimeError)
+{"ok"=>false}
+	from /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/hypervisor.rb:37:in `create'
+	from /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:73:in `block in provision'
+	from /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72:in `each_key'
+	from /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/network_manager.rb:72:in `provision'
+	from /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:85:in `initialize_network_manager'
+	from /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/lib/beaker/cli.rb:71:in `provision'
+	from /home/david/gems/ruby/2.5.0/gems/beaker-4.1.0/bin/beaker:9:in `<top (required)>'
+	from /home/david/gems/ruby/2.5.0/bin/beaker:23:in `load'
+	from /home/david/gems/ruby/2.5.0/bin/beaker:23:in `<main>'

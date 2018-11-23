@@ -1,0 +1,2 @@
+processing tests/beaker_tests/cisco_snmp_community/snmpcommlib.rb
+beaker .... -t tests/beaker_tests/cisco_snmp_community/snmpcommlib.rb

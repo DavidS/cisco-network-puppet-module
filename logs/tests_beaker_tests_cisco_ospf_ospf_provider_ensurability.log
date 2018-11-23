@@ -1,0 +1,2 @@
+processing tests/beaker_tests/cisco_ospf/ospf_provider_ensurability.rb
+beaker .... -t tests/beaker_tests/cisco_ospf/ospf_provider_ensurability.rb

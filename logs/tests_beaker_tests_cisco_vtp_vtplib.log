@@ -1,0 +1,2 @@
+processing tests/beaker_tests/cisco_vtp/vtplib.rb
+beaker .... -t tests/beaker_tests/cisco_vtp/vtplib.rb
